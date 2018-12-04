@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Binary converter</title>
+    <link rel="stylesheet" href="binaryconverter.css" type="text/css">
+<script LANGUAGE="JavaScript">
+    function testResults (form) {
+        var TestVar = form.inputbox.value;
+        if ((TestVar +'').indexOf('1') >-1) {
+            alert("Your decimal number is : " + parseInt(TestVar, 2));
+        } else if(TestVar !== parseInt(TestVar, 10)){
+            alert("Please only insert numbers");
+        } else{
+            alert('Please insert a binary number');
+        }
+    }
+</script>
+</head>
+<body>
+<div class = "mainsection">
+<form NAME="myform" ACTION="" METHOD="GET">Enter your binary number here:
+    <input TYPE="text" NAME="inputbox" VALUE="" class="smallbox"><br>
+        <input TYPE="button" NAME="button" Value="Click" onClick=" testResults(this.form)">
+</form>
+</div>
+</body>
+</html>
