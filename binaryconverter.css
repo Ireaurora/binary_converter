@@ -2,12 +2,14 @@ body{
     background-color: greenyellow;
     text-align:center;
 }
+
 .mainsection{
     margin: auto;
     width:50%;
     background-color:orange;
     top:50%;
 }
+
 .smallbox{
     align:center;
 }
