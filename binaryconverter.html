@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Binary converter</title>
     <link rel="stylesheet" href="binaryconverter.css" type="text/css">
-<script LANGUAGE="JavaScript">
+    <script LANGUAGE="JavaScript">
+        // need to move this in a different file
     function testResults (form) {
         var TestVar = form.inputbox.value;
         if ((TestVar +'').indexOf('1') >-1) {
@@ -19,8 +20,8 @@
 </head>
 <body>
 <div class = "mainsection">
-<form NAME="myform" ACTION="" METHOD="GET">Enter your binary number here:
-    <input TYPE="text" NAME="inputbox" VALUE="" class="smallbox"><br>
+<form name="myform" action="" method="GET">Enter your binary number here:
+    <input text="text" name="inputbox" value="" class="smallbox"><br>
         <input TYPE="button" NAME="button" Value="Click" onClick=" testResults(this.form)">
 </form>
 </div>
