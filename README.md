@@ -9,7 +9,7 @@ To do :
 - Divide files
 
 - Make it accessible
-  - Visually 
+  - Visually :
     - Include alt for images
     
   
