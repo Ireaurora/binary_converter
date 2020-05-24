@@ -4,25 +4,20 @@
     <meta charset="UTF-8">
     <title>Binary converter</title>
     <link rel="stylesheet" href="binaryconverter.css" type="text/css">
-    <script LANGUAGE="JavaScript">
-        // need to move this in a different file
+    <script>
     function testResults (form) {
         var TestVar = form.inputbox.value;
-        if ((TestVar +'').indexOf('1') >-1) {
-            alert("Your decimal number is : " + parseInt(TestVar, 2));
-        } else if(TestVar !== parseInt(TestVar, 10)){
-            alert("Please only insert numbers");
-        } else{
-            alert('Please insert a binary number');
-        }
+        if ((TestVar +'').indexOf('1') >-1) { alert("Your decimal number is : " + parseInt(TestVar, 2)); } 
+        else if(TestVar !== parseInt(TestVar, 10)){ alert("Please only insert numbers");} 
+        else{ alert('Please insert a binary number'); }
     }
-</script>
+    </script>
 </head>
 <body>
-<div class = "mainsection">
-<form name="myform" action="" method="GET">Enter your binary number here:
-    <input text="text" name="inputbox" value="" class="smallbox"><br>
-    <input TYPE="button" NAME="button" Value="Click" onClick=" testResults(this.form)">
+<div class="mainsection">
+<form>Enter your binary number here:
+    <input text="text" name="inputbox" class="smallbox"><br>
+    <input type="button" name="button" onClick="testResults(this.form)">
 </form>
 </div>
 </body>
