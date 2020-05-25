@@ -11,5 +11,3 @@ To do :
 - Make it accessible
   - Visually :
     - Include alt for images
-    
-  
