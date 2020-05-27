@@ -7,11 +7,17 @@
     <script type="text/javascript" src="binary.js"></script>
 </head>
 <body>
-<div class="mainsection">
-<form>Enter your binary number here:
-    <input text="text" name="inputbox" class="smallbox"><br>
-    <input type="button" name="button" onClick="testResults(this.form)">
-</form>
-</div>
-</body>
+    <div class="mainsection">
+    <form>
+    <h2>Convert from decimal to binary:</h2>
+        <label>Decimal :</label>
+        <input type="text" id="from">
+        <button type="button" onclick="reset();">Convert</button>
+        <button type="button" onclick="">Swap</button>
+        <button type="button" onclick="reset();">Reset</button>
+        <p>Binary :</p>
+        <p id="to"></p>
+    </form>
+    </div>
+    </body> 
 </html>
