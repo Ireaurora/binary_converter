@@ -1,10 +1,19 @@
-function testResults (form) {
-  var TestVar = form.inputbox.value;
-  if ((TestVar +'').indexOf('1') >-1) { 
-    alert("Your decimal number is : " + parseInt(TestVar, 2)); 
-  }else if(TestVar !== parseInt(TestVar, 10)){
-    alert("Please only insert numbers");
+function convert_to_binary(){
+  let decimal = document.getElementById("from").value;
+  let binary = Number(decimal).toString(2);
+  console.log(binary);
+  if(binary == "NaN"){
+    reset();
+    alert("You must enter a number");
   }else{
-    alert('Please insert a binary number');
+    document.getElementById("to").innerHTML = binary;
   }
 }
+
+function reset(){
+  document.getElementById("from").value="";
+  let variant = document.getElementById("to");
+  variant.innerHTML="";
+}
+
+function swap(){}
