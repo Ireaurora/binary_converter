@@ -2,12 +2,10 @@
 
 To do :
 
-- Check if it works 
+- Check if it works Done
 
-- Redesign the interface
+- Redesign the interface Done
 
-- Divide files
+- Divide files Done
 
-- Make it accessible
-  - Visually :
-    - Include alt for images
+- Fix bug
