@@ -1,6 +1,19 @@
-  body{ text-align:center; }
+  body{ 
+    text-align:center; 
+    margin:40px;
+  }
 
-  label{ float:left; }
+  label{ 
+    float:left;
+    font-size:20px;
+    margin-bottom:0;
+   }
+
+    small{
+    float:left;
+    color:red;
+    font-size:18px;
+  }
 
   input[type=text], select {
     width: 100%;
@@ -10,6 +23,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    height: 50px;
   }
   
   button{
@@ -18,9 +32,19 @@
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: 1px solid #318e85;
     border-radius: 4px;
     cursor: pointer;
   }
   
   button:hover { background-color: #25c5b6; }
+
+  .btn{
+    background-color: #25a599;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #318e85;
+  }
+
+  #last{ margin-bottom:20px;}

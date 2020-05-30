@@ -2,22 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Binary converter</title>
+    <title>Binary/Decimal converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="binaryconverter.css" type="text/css">
     <script type="text/javascript" src="binary.js"></script>
 </head>
 <body>
-    <div class="mainsection">
-    <form>
-    <h2>Convert from decimal to binary:</h2>
-        <label>Decimal :</label>
-        <input type="text" id="from">
-        <button type="button" onclick="reset();">Convert</button>
-        <button type="button" onclick="">Swap</button>
-        <button type="button" onclick="reset();">Reset</button>
-        <p>Binary :</p>
-        <p id="to"></p>
-    </form>
+    <h2 id="h2">Decimal to Binary converter</h2>
+    <div class="form-group">
+        <form>
+            <label id="initial">Decimal :</label>
+            <input type="text" class="form-control" id="from">
+            <div id="error"></div>
+            <button type="button" onclick="conversion();">Convert</button>
+            <button type="button" onclick="swap();">Swap</button>
+            <button type="button" id="last" onclick="reset();">Reset</button>
+            <label id="final">Binary :</label>
+            <input type="text" class="form-control" id="to">
+            </form>
     </div>
-    </body> 
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="temperature.png" alt="Temperature Converter">
+        <div class="card-body">
+          <h5 class="card-title">Temperature Converter</h5>
+          <p class="card-text">Convert quickly between Celsius and Fahrenheit</p>
+          <a href="https://ireaurora.github.io/Temperature_converter/" target="_blank" class="btn btn-primary">Temperature Converter</a>
+        </div>
+      </div>
+</body> 
 </html>
