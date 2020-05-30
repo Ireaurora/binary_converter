@@ -1,7 +1,7 @@
 function to_binary(){
   let decimal = document.getElementById("from").value;
   let binary = Number(decimal).toString(2);
-  if(binary == "NaN" || binary == "0"){
+  if(isNaN(binary)){
     reset();
     document.getElementById("error").innerHTML = "<small>You must enter a number</small>";
   }else{
@@ -12,9 +12,9 @@ function to_binary(){
 function to_decimal(){
   let binary = document.getElementById("from").value;
   let decimal = parseInt(Number(binary), 2);
-  if(decimal == NaN){
+  if(isNaN(decimal)){
     reset();
-    document.getElementById("error").innerHTML = "<small>You must enter binarya number</small>";
+    document.getElementById("error").innerHTML = "<small>You must enter a binary number</small>";
   }else{
     document.getElementById("to").value = decimal;
   }
@@ -45,4 +45,3 @@ function swap(){
   }
   reset();
 }
-//        <small>We'll never share your email with anyone else.</small>
