@@ -8,4 +8,4 @@ To do :
 
 - Divide files Done
 
-- Fix bug
+- Fix bug Done

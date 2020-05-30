@@ -39,5 +39,12 @@
   
   button:hover { background-color: #25c5b6; }
 
+  .btn{
+    background-color: #25a599;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #318e85;
+  }
+
   #last{ margin-bottom:20px;}
- 

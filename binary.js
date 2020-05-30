@@ -37,9 +37,11 @@ function reset(){
 
 function swap(){
   if(document.getElementById("initial").innerHTML == "Binary :"){
+    document.getElementById("h2").innerHTML="Decimal to Binary converter :";
     document.getElementById("initial").innerHTML="Decimal :";
     document.getElementById("final").innerHTML="Binary :";
   }else{
+    document.getElementById("h2").innerHTML="Binary to Decimal converter :";
     document.getElementById("initial").innerHTML="Binary :";
     document.getElementById("final").innerHTML="Decimal :";
   }
