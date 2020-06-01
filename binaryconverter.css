@@ -26,7 +26,7 @@
     height: 50px;
   }
   
-  button{
+  .button{
     width: 100%;
     background-color: #25a599;
     color: white;
@@ -48,3 +48,8 @@
   }
 
   #last{ margin-bottom:20px;}
+
+  #tutorial{
+    background-color: #25a599;
+    float:right;
+  }

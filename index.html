@@ -8,15 +8,16 @@
     <script type="text/javascript" src="binary.js"></script>
 </head>
 <body>
-    <h2 id="h2">Decimal to Binary converter</h2>
+    <h2 class="d-inline-block" id="h2">Decimal to Binary converter</h2>
+    <button class="btn btn-primary" id="tutorial" type="button" onclick="tutorial();">Tutorial</button>
     <div class="form-group">
         <form>
             <label id="initial">Decimal :</label>
             <input type="text" class="form-control" id="from">
             <div id="error"></div>
-            <button type="button" onclick="conversion();">Convert</button>
-            <button type="button" onclick="swap();">Swap</button>
-            <button type="button" id="last" onclick="reset();">Reset</button>
+            <button class="button" type="button" onclick="conversion();">Convert</button>
+            <button class="button" type="button" onclick="swap();">Swap</button>
+            <button class="button" type="button" id="last" onclick="reset();">Reset</button>
             <label id="final">Binary :</label>
             <input type="text" class="form-control" id="to">
             </form>
