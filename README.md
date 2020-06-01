@@ -6,5 +6,5 @@
 
 📌 Whole screen view
 
-📌 Tutorial (coming) 
+📌 Tutorial 
 
