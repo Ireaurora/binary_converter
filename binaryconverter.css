@@ -32,12 +32,14 @@
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    border: 1px solid #318e85;
+    border: 1px solid #318e85 !important;
     border-radius: 4px;
     cursor: pointer;
   }
   
-  button:hover { background-color: #25c5b6; }
+  button:hover { 
+    background-color: #25c5b6 !important;
+   }
 
   .btn{
     background-color: #25a599;
@@ -53,3 +55,14 @@
     background-color: #25a599;
     float:right;
   }
+.modal_button{
+  background-color: #25a599;
+  float:left;
+}
+button, p{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px 10px;
+}
+.close:hover{ background-color: white;}
+
