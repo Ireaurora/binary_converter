@@ -39,6 +39,7 @@
   
   button:hover { 
     background-color: #25c5b6 !important;
+    border: 1px solid #318e85;
    }
 
   .btn{
@@ -51,10 +52,11 @@
 
   #last{ margin-bottom:20px;}
 
-  #tutorial{
-    background-color: #25a599;
-    float:right;
+#tutorial{
+  background-color: #25a599;
+  float:right;
   }
+
 .modal_button{
   background-color: #25a599;
   float:left;
@@ -66,3 +68,7 @@ button, p{
 }
 .close:hover{ background-color: white;}
 
+.card_button:hover{
+  background-color: #25c5b6;
+  border: 1px solid #318e85;
+}
